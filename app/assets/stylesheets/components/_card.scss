@@ -1,0 +1,56 @@
+.card {
+  border: 1px solid grey;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  height: 450px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flat-image {
+  height: 200px;
+  background-size: cover;
+}
+
+.card-holder {
+  flex: 0;
+}
+
+.flat-description {
+  background-color: rgb(245, 245, 245);
+  padding: 0 15px;
+  flex: 1;
+  h2 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  p {
+    font-size: 15px;
+    margin: 0;
+    padding: 5px;
+  }
+  div {
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+}
+
+.flat-actions {
+  flex: 0;
+  border-top: 1px solid grey;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  min-height: 50px;
+  ul {
+    margin: 0;
+  }
+  p {
+    padding-right: 10px;
+    margin: 0;
+  }
+}
